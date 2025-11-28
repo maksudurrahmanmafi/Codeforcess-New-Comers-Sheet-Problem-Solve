@@ -12,6 +12,7 @@ bool isPrime(int x) {
 }
 int main()
 {
+    //This code for 1 to prime numbers
     int n;
     cin >> n;
     for(int i =1; i<=n;i++){
@@ -19,6 +20,7 @@ int main()
             cout << i << " ";
         } 
     }
+
     
  
     return 0;
